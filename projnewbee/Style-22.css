@@ -1,0 +1,27 @@
+body{
+    background-color: beige;
+}
+.mes {
+  height: auto;
+  width: 500px;
+  background-color: orange;
+  border-style: solid;
+  border-color: green;
+  border-width: thick;
+  padding: 20px;
+  text-align: top;
+  box-shadow: 5px 5px 5px 5px;
+  border-radius: 55px 30px 40px 20px;
+}
+.quest{
+    margin: 25px 100px 0 0;
+}
+.ans{
+    margin: 25px 0 0 300px;
+}
+.mes > p {
+  height: 75%;
+  width: 90%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16pt;
+}

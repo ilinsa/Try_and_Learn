@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style-form-1.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="outer">
+    <form action="example.php" method="post">   
+      <div>
+        <label for="name" class="title">Имя:</label>
+        <input type="text" name="name" id="name" />
+      </div>
+      <div>
+        <label for="surname" class="title">Фамилия:</label>
+        <input type="text" name="surname" id="surname" />
+      </div>
+      <div class="radio">
+        <span class="title">Пол</span>
+
+        <input type="radio" name="sex" id="male" />
+        <label for="male">Муж</label>
+        <input type="radio" name="sex" id="female" />
+        <label for="female">Жен</label>
+      </div>
+      <div>
+        <label for="email" class="title">E-mail:</label>
+        <input type="text" name="email" id="email" />
+      </div>
+      <div>
+        <input type="button" value="Отправить" id="submit" />
+      </div>
+        </div>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+body{
+    background-color: #3aebca;
+}
+table{
+    border: 1px solid #3aebca;
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid blue;
+}
+
+input{
+    margin: 5px;
+}

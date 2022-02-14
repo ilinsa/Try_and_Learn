@@ -1,0 +1,62 @@
+.container{
+    width: 100%;
+    max-width: 1600px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.container:after, row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.col1_1{
+    width: 35%;
+    float: left;
+}
+.col1_2{
+    width: 25%;
+    float: left;
+}
+.col1_3{
+    width: 40%;
+    float: left;
+}
+.col2_1{
+    width: 60%;
+    float: left;
+}
+.col2_2{
+    width: 40%;
+    float: left;
+}
+
+.row{
+    margin-bottom: 15px;
+}
+.row div{
+    height: 300px;
+}
+input[type=number]{
+    max-width: 50px;
+    margin: 5px 0 0;
+}
+label.s{
+    margin-left: 60px;
+}
+input[type=range]{
+    min-width: 300px;
+    margin-top: 50px;
+}
+input[type=submit]{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+form{
+    padding-left: 100px;
+}
+img{
+    padding-left: 100px;
+}
+progress{
+    min-width: 300px;
+}

@@ -1,0 +1,22 @@
+
+div {
+  border-bottom: 1px solid lightgray;
+  margin: 10px;
+  padding-bottom: 10px;
+  width: 260px;
+  text-align: right;
+
+}
+.outer{
+    border: 1px solid blue;
+    width: 300px;
+    border-radius: 35px;
+    background-color: pink;
+    box-shadow: 10px 5px 5px 5px gray;
+}
+.title {
+  padding-right: 10px;
+}
+.radio{
+    text-align: center;
+}

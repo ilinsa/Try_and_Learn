@@ -1,0 +1,81 @@
+body{
+    background-color: beige;
+}
+.userform{
+    border: 3px solid blue;
+    text-align: right;
+    width: 15%;
+    min-width: 340px;
+    margin: 20% auto;
+    border-radius: 5px;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.field{
+    clear: both;
+    text-align: right;
+    line-height: 35px;
+    padding: 0.5%;
+    
+}
+label{
+    float: left;
+    padding-right: 5px;
+}
+.numform{
+    min-width: 180px;
+    float: left;
+    position: relative;
+    margin: 15% auto;
+    left: 42%;
+}
+
+h2{
+    color: red;
+}
+h3{
+    text-align: left;
+}
+input[type=number]{
+    width: 83%;
+}
+input[type=password],input[type=text]{
+    width: 75%;
+}
+
+.button{
+    text-align: center;
+    margin-top: 3%;
+}
+.button2{
+    margin-top: 3%;
+    text-align: left;
+}
+input_text{
+    float: right;
+    position: relative;
+    margin: 15% auto;
+}
+/*input[type=text],input[type=number]{
+    margin: 0.6%;
+    float: bottom;
+    font-size: 16px;
+}
+input[type=submit]{
+    margin-right: 30%;
+    margin-left: 20%;
+    margin-top: 3%;
+    float: bottom;
+    font-size: 16px;
+}
+label{
+    float: left;
+    font-size: 16px;
+}
+h4{
+    font-size: 24px;
+    font-weight: bold;
+}*/

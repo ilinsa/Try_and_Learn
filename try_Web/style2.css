@@ -1,0 +1,35 @@
+.item{
+    /*border: 1px solid blue;*/
+    border-radius: 10px;
+    min-width: 200px;
+    width: 20%;
+    padding: 5px;
+    margin: 0.5%;
+    float: left;
+    background-color: rgb(243, 213, 82);
+}
+.buybutton{
+    font-size: 24px;
+    margin: 10px auto 20px 40px;
+    background-color: lightgreen;
+}
+.field{
+    margin: 10px auto 20px 10px;
+    width: 30%;
+}
+.qlabel{
+    margin-left: 30px;
+}
+figcaption{
+    font-size: 30px;
+    text-align: center;
+}
+img{
+    padding-left: 25%;
+    width: 40%;
+    min-width: 100px;
+    margin-bottom: 20px;
+}
+.buybutton:hover{
+    cursor: url("duck.gif");
+}
